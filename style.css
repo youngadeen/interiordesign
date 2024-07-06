@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.btn1 {
+  width: 130px;
+  height: 50px;
+  background-color: transparent;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-top: 80px; */
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+h3 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 50px;
+}
+.btn2 {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+.btn3 {
+  width: 130px;
+  height: 50px;
+  background-color: transparent;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-top: 80px; */
+}
+.sec1 {
+  width: 100%;
+  height: 80vh;
+  /* background-color: gainsboro; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 {
+  width: 100%;
+  height: 80vh;
+  /* background-color: gainsboro; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec2-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box1 {
+  width: 400px;
+  height: 80%;
+  /* background-color: brown; */
+}
+.box2 {
+  width: 600px;
+  height: 80%;
+  background-color: chartreuse;
+}
+.box3 {
+  width: 600px;
+  height: 80%;
+  background-color: blueviolet;
+  position: relative;
+}
+.box4 {
+  width: 400px;
+  height: 80%;
+  /* background-color: blueviolet; git add . */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.top{
+    margin-top: 20px;
+}
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -50px;
+    top: 150px;
+    box-shadow: 0, 0, 5px, 5px, gray;
+
+}
